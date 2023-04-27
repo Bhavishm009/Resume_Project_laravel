@@ -13,6 +13,7 @@
     {{-- link google font --}}
     <link href="https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital@0;1&display=swap" rel="stylesheet">
     <title>{{$title}}</title>
+   
 </head>
 <body>
     <div class="container-fluid bg-dark">
@@ -22,12 +23,14 @@
     </div>
     <div class="col-sm-10">
         {{$content}}
+        
     </div>
  </div>
     </div>
  {{-- Importring bootstrap js  file from public folder --}}
-    <script src="{{asset('js/bootstrap.bundle.js')}}"></script>
+    <script src="{{'js/bootstrap.bundle.js'}}"></script>
 {{-- Importring Fontaweosome js  file from public folder --}}
-    <script src="{{asset('js/all.min.js')}}"></script>
+     <script src="{{'js/all.js'}}"></script>
+    
 </body>
 </html>
